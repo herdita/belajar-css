@@ -1,0 +1,85 @@
+<html>
+
+<head>
+    <title> Belajar css part 15 </title>
+</head>
+
+<style type="text/css">
+    body {
+        font-family: cursive;
+        font-size: 15pt;
+        background-image: Url(header.jpg);
+        margin: auto;
+        background-repeat: repeat-x;
+        background-attachment: fixed;
+    }
+    
+    .table {
+        width: 100%;
+        height: 20px;
+        margin-top: 10%;
+        background: rgb(206, 220, 231);
+        /* Old browsers */
+        background: -moz-linear-gradient(top, rgba(206, 220, 231, 1) 0%, rgba(89, 106, 114, 1) 100%);
+        /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(206, 220, 231, 1)), color-stop(100%, rgba(89, 106, 114, 1)));
+        /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top, rgba(206, 220, 231, 1) 0%, rgba(89, 106, 114, 1) 100%);
+        /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top, rgba(206, 220, 231, 1) 0%, rgba(89, 106, 114, 1) 100%);
+        /* Opera 11.10+ */
+        background: -ms-linear-gradient(top, rgba(206, 220, 231, 1) 0%, rgba(89, 106, 114, 1) 100%);
+        /* IE10+ */
+        background: linear-gradient(to bottom, rgba(206, 220, 231, 1) 0%, rgba(89, 106, 114, 1) 100%);
+        /* W3C */
+        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#cedce7', endColorstr='#596a72', GradientType=0);
+        /* IE6-9 */
+    }
+    
+    .a table,
+    tr,
+    td {
+        border-collapse: collapse;
+        border: 0px dashed black;
+        width: 100px;
+        text-align: center;
+        height: 20px;
+    }
+    
+    a {
+        text-decoration: none;
+        font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+        font-size: 15px;
+        color: black;
+        width: 100px;
+        height: 20px;
+        display: block;
+        background-color: #77758a;
+        box-shadow: -2px -2px 5px gray;
+    }
+    
+    a:hover {
+        background-color: dodgerblue;
+        color: aqua;
+    }
+</style>
+
+<body>
+
+    <table class="table">
+        <tr>
+            <td>
+                <table class="a" align="center">
+                    <tr>
+                        <td><a href="css10.html"> Home </a></td>
+                        <td><a href="css11.html"> Menu </a></td>
+                        <td><a href="css10.html"> Profil </a></td>
+                        <td><a href="css10.html"> Dokument </a></td>
+                        <td><a href="css10.html"> Tlailer </a></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+</body>

@@ -1,0 +1,77 @@
+<html>
+
+<head>
+    <title>Membuat Dropdown menu navigasi – www.pemulabelajar.com</title>
+</head>
+<style type="text/css">
+    nav a:hover {
+        text-decoration: none;
+    }
+    
+    nav ul {
+        list-style: none;
+    }
+    
+    nav ul li {
+        float: left;
+        padding: 5px 20px;
+    }
+    
+    nav ul li:hover {
+        background-color: #2980b9;
+        -webkit-transition: all 0.8s ease-out;
+        -moz-transition: all 0.8s ease-out;
+        -ms-transition: all 0.8s ease-out;
+        -o-transition: all 0.8s ease-out;
+        transition: all 0.8s ease-out;
+    }
+    
+    nav ul li ul {
+        display: none;
+        list-style: none;
+        margin-left: -20px;
+    }
+    
+    nav ul li ul li {
+        float: none;
+        padding: 5px 20px;
+        margin-left: -40px;
+    }
+    
+    nav ul li ul li:hover {
+        background-color: #2980b9;
+        -webkit-transition: all 0.8s ease-out;
+        -moz-transition: all 0.8s ease-out;
+        -ms-transition: all 0.8s ease-out;
+        -o-transition: all 0.8s ease-out;
+        transition: all 0.8s ease-out;
+    }
+    
+    nav ul li:hover > ul {
+        display: block;
+        position: absolute;
+        background: #ddd;
+    }
+    
+    nav ul li:hover > a {
+        color: #fff;
+    }
+</style>
+
+<body>
+    <div class="navigasi">
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Drop 1</a>
+                    <ul>
+                        <li><a href="#">Menu list 1</a></li>
+                        <li><a href="#">Menu list 2</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</body>
+
+</html>
